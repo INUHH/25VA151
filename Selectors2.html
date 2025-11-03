@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <style>
+    /*div p{
+        color:blue;
+    }
+    .text> p{
+        background-color:bisque;
+    } */
+    .text + p{
+        font-size:25px;
+        background-color: blueviolet;
+    }
+    </style>
+</head>
+<body>
+    <!--first div-->
+    <div class="text">
+      <h1>Hello ABES</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, error debitis? Iste distinctio voluptatem quia consequatur quisquam, vel, odio, quo molestiae rerum cumque quas necessitatibus reiciendis officia laboriosam? Voluptatum, magni.</p>
+    <!--second div-->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel iure veniam quaerat sed molestias incidunt quidem. Blanditiis rerum ducimus quasi dolores laborum quas error explicabo optio, voluptate consectetur eius id.</p>
+    </div><!--second div end-->
+      <ul>
+        <li><p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam placeat nisi, nihil vitae animi nam nostrum temporibus porro cumque dolore nesciunt et repudiandae quia laborum a magni culpa alias!
+        </p></li>
+      </ul>
+      </div><!--first div end-->
+      <!--para-->
+      <h2>Third Para</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod magnam quasi pariatur iusto, qui, velit expedita ad tenetur quos fuga repudiandae, excepturi debitis. Magnam ea dolorum aperiam voluptate cupiditate possimus?</p>
+</body>
+</html>
