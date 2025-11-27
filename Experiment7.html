@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Menu Example</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        
+        h1 {
+            display: block;              
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        
+        .inline-text span {
+            display: inline;             
+            margin-right: 10px;
+            color: #0077b6;
+            font-weight: bold;
+        }
+
+        
+        .nav-menu {
+            background-color: #023e8a;
+            padding: 10px;
+        }
+
+        .nav-menu a {
+            display: inline-block;       
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            background-color: #0077b6;
+            border-radius: 5px;
+        }
+
+        .nav-menu a:hover {
+            background-color: #0096c7;
+        }
+
+        
+        .float-box {
+            width: 45%;
+            padding: 15px;
+            background-color: #caf0f8;
+            float: left;                 
+            margin: 10px;
+        }
+
+        
+        .clear-box {
+            clear: both;                 
+            background-color: #90e0ef;
+            padding: 15px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Navigation page</h1>
+
+    <div class="inline-text">
+        <span>Home</span>
+        <span>About</span>
+        <span>Contact</span>
+        <span>Help</span>
+    </div>
+
+    <h2>Navigation Using Inline-Block</h2>
+
+    <div class="nav-menu">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <h2>Float and Clear Example</h2>
+
+    <div class="float-box">This is a floating box on the left.</div>
+    <div class="float-box">Another floating box on the left.</div>
+
+    <div class="clear-box">This area uses <b>clear</b> to appear below floated elements.</div>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            width: 350px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #ccc;
+            margin-bottom: 15px;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .info h2 {
+            margin: 0;
+            font-size: 22px;
+        }
+
+        .info p {
+            margin: 0;
+            color: #555;
+        }
+
+        .details {
+            margin-top: 15px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f7f7f7;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="profile-img">
+            <img src="C:\Users\Unzilaansari\Documents\CSS UNIT-03\john pic.jpg" alt="profile picture"align="center" width="120" height="120">
+        </div>
+        <div class="info">
+            <h2>JOHN</h2>
+            <p>B.Tech Computer Science</p>
+        </div>
+
+        <div class="details">
+            <div class="row">
+                <strong>Roll No:</strong>
+                <span>12345</span>
+            </div>
+            <div class="row">
+                <strong>Semester:</strong>
+                <span>5th</span>
+            </div>
+            <div class="row">
+                <strong>Email:</strong>
+                <span>john@example.com</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
